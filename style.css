@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color:black;
+    overflow: hidden;
+}
+
+.flex{
+    background-color: aquamarine;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+  
+}
+.textarea{
+    resize: none;
+    width:100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 2px solid snow;
+    border-radius: 20px;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+ 
+    
+}
+.counter p{
+   font-size: bold;
+   display: flex;
+   margin: 15px;
+   align-items: center;
+    color: orange;
+  
+}
+.Total{
+    color: blueviolet;
+
+}
+.Remaining{
+    color: red;
+}
+
